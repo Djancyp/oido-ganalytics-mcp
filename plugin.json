@@ -1,0 +1,16 @@
+{
+  "id": "oido-ganalytics",
+  "name": "Oido Google Analytics",
+  "version": "1.0.0",
+  "description": "Query Google Analytics 4 (GA4) properties, reports, and realtime data via MCP server.",
+  "type": "extension",
+  "enabled": true,
+  "binary": "oido-ganalytics-mcp",
+  "protocol_version": 1,
+  "os": ["linux", "darwin"],
+  "arch": ["amd64", "arm64"],
+  "config_schema": {},
+  "capabilities": ["list_properties", "run_report", "realtime_report", "get_metadata"],
+  "author": "oido-studio",
+  "homepage": "https://analytics.google.com"
+}

@@ -1,0 +1,5 @@
+*.zip
+*-mcp
+oido-ganalytics
+dist/
+.env
